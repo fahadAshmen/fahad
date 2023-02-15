@@ -266,7 +266,7 @@ function sendMail(){
 
     emailjs.sendForm('service_6xy7omr','template_oqop90k','#email-form')
     .then(function(){
-      console.log('SUCCESS');
+      alert('SUCCESS');
       let success = document.getElementById('sub-btn');
       let emailForm = document.getElementById('email-form');
       emailForm.reset();
